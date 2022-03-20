@@ -1,28 +1,25 @@
+# Svelte Music App
 
-- SvelteKit
+Build in a view hours.
+
+## What is used
+
+- Svelte & SvelteKit
 - TailwindCSS
+
+https://developer.apple.com/library/archive/documentation/AudioVideo/Conceptual/iTuneSearchAPI/Searching.html#//apple_ref/doc/uid/TP40017632-CH5-SW1
+
+## todo
+
+- encode search string 
 - licence
-- idea from  this.stephie
-
-
-
-# create-svelte
-
-Everything you need to build a Svelte project, powered by [`create-svelte`](https://github.com/sveltejs/kit/tree/master/packages/create-svelte).
-
-## Creating a project
-
-If you're seeing this, you've probably already done this step. Congrats!
-
-```bash
-# create a new project in the current directory
-npm init svelte@next
-
-# create a new project in my-app
-npm init svelte@next my-app
-```
-
-> Note: the `@next` is temporary
+- thanks / credits idea from  this.stephie
+- werbung einblenden google, svelte, javascript, apple music
+- design für möglichst kleine geräte
+- made with love in Switzerland
+- buton hover
+- animated background
+- songs zu langer title bild hat y- rand
 
 ## Developing
 

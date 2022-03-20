@@ -1,0 +1,8 @@
+{
+    "html.format.wrapAttributes": "force-aligned",
+    "svelte.plugin.svelte.format.config.svelteBracketNewLine": false,
+    "svelte.plugin.svelte.format.config.singleQuote": true,
+    "css.customData": [
+        ".vscode/css.json"
+    ]
+}

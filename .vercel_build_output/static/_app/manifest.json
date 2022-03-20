@@ -1,0 +1,96 @@
+{
+  ".svelte-kit/runtime/client/start.js": {
+    "file": "start-b6696182.js",
+    "src": ".svelte-kit/runtime/client/start.js",
+    "isEntry": true,
+    "imports": [
+      "_vendor-07f31755.js",
+      "_singletons-d1fb5791.js"
+    ],
+    "dynamicImports": [
+      "src/routes/__layout.svelte",
+      ".svelte-kit/runtime/components/error.svelte",
+      "src/routes/index.svelte",
+      "src/routes/songs/[search]/index.svelte",
+      "src/routes/song/[id]/__layout.svelte",
+      "src/routes/dev/cards-showcase.svelte"
+    ]
+  },
+  "src/routes/__layout.svelte": {
+    "file": "pages/__layout.svelte-a2ec7cc3.js",
+    "src": "src/routes/__layout.svelte",
+    "isEntry": true,
+    "isDynamicEntry": true,
+    "imports": [
+      "_vendor-07f31755.js"
+    ],
+    "css": [
+      "assets/pages/__layout.svelte-c67eaca7.css"
+    ]
+  },
+  ".svelte-kit/runtime/components/error.svelte": {
+    "file": "error.svelte-0cbd3358.js",
+    "src": ".svelte-kit/runtime/components/error.svelte",
+    "isEntry": true,
+    "isDynamicEntry": true,
+    "imports": [
+      "_vendor-07f31755.js"
+    ]
+  },
+  "src/routes/index.svelte": {
+    "file": "pages/index.svelte-51e93df9.js",
+    "src": "src/routes/index.svelte",
+    "isEntry": true,
+    "isDynamicEntry": true,
+    "imports": [
+      "_vendor-07f31755.js",
+      "_SearchForm-160dfa81.js",
+      "_singletons-d1fb5791.js"
+    ]
+  },
+  "src/routes/songs/[search]/index.svelte": {
+    "file": "pages/songs/_search_/index.svelte-fa1e1108.js",
+    "src": "src/routes/songs/[search]/index.svelte",
+    "isEntry": true,
+    "isDynamicEntry": true,
+    "imports": [
+      "_vendor-07f31755.js",
+      "_SearchForm-160dfa81.js",
+      "_singletons-d1fb5791.js"
+    ]
+  },
+  "src/routes/song/[id]/__layout.svelte": {
+    "file": "pages/song/_id_/__layout.svelte-bb2e1722.js",
+    "src": "src/routes/song/[id]/__layout.svelte",
+    "isEntry": true,
+    "isDynamicEntry": true,
+    "imports": [
+      "_vendor-07f31755.js"
+    ]
+  },
+  "src/routes/dev/cards-showcase.svelte": {
+    "file": "pages/dev/cards-showcase.svelte-d4599bb4.js",
+    "src": "src/routes/dev/cards-showcase.svelte",
+    "isEntry": true,
+    "isDynamicEntry": true,
+    "imports": [
+      "_vendor-07f31755.js"
+    ]
+  },
+  "_vendor-07f31755.js": {
+    "file": "chunks/vendor-07f31755.js"
+  },
+  "_singletons-d1fb5791.js": {
+    "file": "chunks/singletons-d1fb5791.js"
+  },
+  "_SearchForm-160dfa81.js": {
+    "file": "chunks/SearchForm-160dfa81.js",
+    "imports": [
+      "_vendor-07f31755.js",
+      "_singletons-d1fb5791.js"
+    ],
+    "assets": [
+      "assets/apple-logo-a493ce07.png"
+    ]
+  }
+}
