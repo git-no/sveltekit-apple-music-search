@@ -3,9 +3,6 @@
 
 	export const load = async ({ fetch, params }) => {
 		var search = params.search;
-		console.log(`load searchString: ${search}`);
-
-		// const response = await fetch(`/songs.json?search={search}`);
 		const response = await fetch(`https://itunes.apple.com/search?term=${search}&entity=song`);
 		var data = await response.json();
 
@@ -30,15 +27,16 @@
 <script>
 	import CardFlowbiteHorizontal from '$lib/components/CardFlowbiteHorizontal.svelte';
 	import SearchForm from '$lib/components/SearchForm.svelte';
+	import { fade } from 'svelte/transition';
 
 	export let songs = [];
 	export let term = '';
 </script>
 
-<div class="min-h-screen flex items-center justify-center px-16">
-	<div class="relative w-full max-w-lg my-10">
+<div class="flex min-h-screen items-center justify-center px-16">
+	<div class="relative my-10 w-full max-w-xl">
 		<SearchForm searchTerm={term} />
-		<ul class="my-10">
+		<ul class="my-10" transition:fade={{ delay: 250, duration: 300 }}>
 			{#each songs as song}
 				<li class="py-2">
 					<CardFlowbiteHorizontal

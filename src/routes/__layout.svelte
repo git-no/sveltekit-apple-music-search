@@ -6,7 +6,7 @@
 	<title>Svelte Music Player</title>
 </svelte:head>
 
-<div class="min-h-screen w-full bg-gradient-to-br from-teal-800 via-emeral-500 to-yellow-500 background-animate px-10 md:px:20 lg:px-52">
+<div class="via-emeral-500 background-animate md:px:20 min-h-screen w-full bg-gradient-to-br from-teal-800 to-yellow-500 px-10 lg:px-52">
 	<slot />
 </div>
 <!-- </main> -->

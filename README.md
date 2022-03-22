@@ -1,7 +1,7 @@
-# SvelteKit Apple Musich Search
+# SvelteKit Apple Music Search
 
 A demo and developer test how easy to create and how fast Static Sites are with SvelteKit and TailwindCSS, in this example with [Apple Music API](https://developer.apple.com/library/archive/documentation/AudioVideo/Conceptual/iTuneSearchAPI/Searching.html#//apple_ref/doc/uid/TP40017632-CH5-SW1) integration.  
-A running example of *searching for songs* is at [sveltekit-tailwind-apple-music-player.swissmation.io](svelte-tailwind-apple-music-player.swissmation.io).
+A running example of *searching for songs* is at [sveltekit-tailwind-apple-music-player.swissmation.io](https://sveltekit-apple-music-search.swissmation.io).
 
 ## What is used
 
@@ -36,10 +36,12 @@ You can preview the production build with `npm run preview`.
 
 ## todo
 
-- encode search string 
-- credits info button  -thanks / credits idea from  this.stephie
-- werbung einblenden google, svelte, javascript, apple music?
 - link zu apple music
-- design für möglichst kleine geräte
+- schrift automatisch verkeinern
+- svelte error 500 load failed
+- performance measures/indicators
+- encode search string 
+- credits info button  -thanks / credits idea from  this.stephie, apple trademarks
+- werbung einblenden google, svelte, javascript, apple music?
 - made with love in Switzerland
 - animated background

@@ -9,7 +9,6 @@
 	export let trackID = '';
 
 	const onClick = () => {
-		console.log(`clicked trackID: ${trackID}`);
 		goto(`/song/${trackID}`);
 	};
 </script>

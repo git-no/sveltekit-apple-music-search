@@ -1,7 +1,12 @@
+const defaultTheme = require('tailwindcss/defaultTheme')
+
 module.exports = {
   content: ['./src/**/*.{html,js,svelte,ts}'],
   theme: {
     extend: {
+      fontFamily: {
+        'sans': ['Nunito', ...defaultTheme.fontFamily.sans]
+      },
       transitionProperty: {
         'height': 'height',
         'spacing': 'margin, padding',

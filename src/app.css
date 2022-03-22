@@ -1,3 +1,6 @@
+@import "@fontsource/nunito/300.css";
+@import "@fontsource/nunito/600.css";
+
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
