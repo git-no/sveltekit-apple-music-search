@@ -37,6 +37,7 @@ You can preview the production build with `npm run preview`.
 ## todo
 
 - performance measures/indicators
+- check dark/light mode
 - svelte error 500 load failed
 - link zu apple music funktioniert nicht
 - schrift automatisch verkeinern
