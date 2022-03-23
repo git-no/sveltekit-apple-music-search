@@ -12,7 +12,7 @@
 	}
 </script>
 
-<div class="fixed top-0 left-0 flex h-screen w-screen items-center justify-center overflow-y-auto overflow-x-hidden outline-none" class:hidden={!visble}>
+<div class="fixed top-0 left-0 z-20 flex h-screen w-screen items-center justify-center overflow-y-auto overflow-x-hidden outline-none" class:hidden={!visble}>
 	<div id="menu" class="sticky-0 fixed top-0 h-full w-full bg-gray-900/50 bg-opacity-80">
 		<div class="flex h-full items-center justify-center py-48 px-4 md:px-28 2xl:container 2xl:mx-auto" transition:fade={{ delay: 250, duration: 300 }}>
 			<div

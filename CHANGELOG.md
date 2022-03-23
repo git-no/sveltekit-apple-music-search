@@ -1,4 +1,7 @@
-## [0.9.0] - 2022-03-21
+## [0.9.1] - 2022-03-23
+- FIX Small device layout
+
+## [0.9.0] - 2022-03-23
 - ADD Font 
 - ADD Error page
 - ADD Info box

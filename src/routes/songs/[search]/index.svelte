@@ -33,7 +33,7 @@
 	export let term = '';
 </script>
 
-<div class="flex min-h-screen items-center justify-center px-16" transition:fade={{ delay: 250, duration: 300 }}>
+<div class="flex min-h-screen items-center justify-center md:px-16" transition:fade={{ delay: 250, duration: 300 }}>
 	<div class="relative my-10 w-full max-w-xl">
 		<SearchForm searchTerm={term} />
 		<ul class="my-10">

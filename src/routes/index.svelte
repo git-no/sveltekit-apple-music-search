@@ -12,7 +12,7 @@
 	var searchString = '';
 </script>
 
-<div class="flex min-h-screen items-center justify-center px-16">
+<div class="flex min-h-screen items-center justify-center md:px-16">
 	<div class="relative w-full max-w-xl" transition:fade={{ delay: 250, duration: 300 }}>
 		<SearchForm />
 
