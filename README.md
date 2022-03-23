@@ -36,12 +36,10 @@ You can preview the production build with `npm run preview`.
 
 ## todo
 
-- link zu apple music
-- schrift automatisch verkeinern
-- svelte error 500 load failed
 - performance measures/indicators
+- svelte error 500 load failed
+- link zu apple music funktioniert nicht
+- schrift automatisch verkeinern
 - encode search string 
-- credits info button  -thanks / credits idea from  this.stephie, apple trademarks
-- werbung einblenden google, svelte, javascript, apple music?
-- made with love in Switzerland
 - animated background
+- info card fade in

@@ -33,16 +33,16 @@
 	export let term = '';
 </script>
 
-<div class="flex min-h-screen items-center justify-center px-16">
+<div class="flex min-h-screen items-center justify-center px-16" transition:fade={{ delay: 250, duration: 300 }}>
 	<div class="relative my-10 w-full max-w-xl">
 		<SearchForm searchTerm={term} />
-		<ul class="my-10" transition:fade={{ delay: 250, duration: 300 }}>
+		<ul class="my-10">
 			{#each songs as song}
 				<li class="py-2">
 					<CardFlowbiteHorizontal
 						title={song.trackName}
 						subTitle={song.artistName}
-						href={song.viewURL}
+						viewHref={song.viewURL}
 						trackID={song.trackId}
 						imageAlt={song.trackName}
 						imageURL={song.artworkUrl100} />
