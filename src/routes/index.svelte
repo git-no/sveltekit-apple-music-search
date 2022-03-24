@@ -13,7 +13,7 @@
 </script>
 
 <div class="flex min-h-screen items-center justify-center md:px-16">
-	<div class="relative w-full max-w-xl" transition:fade={{ delay: 250, duration: 300 }}>
+	<div class="relative w-full max-w-xl" in:fade={{ delay: 250, duration: 300 }}>
 		<SearchForm />
 
 		<!-- {#await songs then songs}
